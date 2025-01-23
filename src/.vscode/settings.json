@@ -1,0 +1,28 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/vi/launch_ws/build/launch_pkg",
+        "/home/vi/launch_ws/install/launch_pkg/lib/python3.10/site-packages",
+        "/home/vi/rviz_ws/build/rviz_pkg",
+        "/home/vi/rviz_ws/install/rviz_pkg/lib/python3.10/site-packages",
+        "/home/vi/rviz_save_ws/install/rviz_save_pkg/lib/python3.10/site-packages",
+        "/home/vi/turtle_ws/build/turtle_pkg",
+        "/home/vi/turtle_ws/install/turtle_pkg/lib/python3.10/site-packages",
+        "/home/vi/mini2_ws/build/mini_pkg",
+        "/home/vi/mini2_ws/install/mini_pkg/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/vi/launch_ws/build/launch_pkg",
+        "/home/vi/launch_ws/install/launch_pkg/lib/python3.10/site-packages",
+        "/home/vi/rviz_ws/build/rviz_pkg",
+        "/home/vi/rviz_ws/install/rviz_pkg/lib/python3.10/site-packages",
+        "/home/vi/rviz_save_ws/install/rviz_save_pkg/lib/python3.10/site-packages",
+        "/home/vi/turtle_ws/build/turtle_pkg",
+        "/home/vi/turtle_ws/install/turtle_pkg/lib/python3.10/site-packages",
+        "/home/vi/mini2_ws/build/mini_pkg",
+        "/home/vi/mini2_ws/install/mini_pkg/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}
