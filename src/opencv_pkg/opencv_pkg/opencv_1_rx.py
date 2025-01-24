@@ -10,6 +10,7 @@ class ReadTopicImg(Node):
     def __init__(self):
         super().__init__('opencv_read_node')
         self.cv_bridge = CvBridge()
+        
         self.sub = self.create_subscription(Image, 'topic_camera_image', self.img_cb, 20)
 
     def img_cb(self, img_msg):
@@ -21,7 +22,7 @@ class ReadTopicImg(Node):
         img = cv2.rectangle(img, (20,20), (200,100), (255,255,255), 5)
         img = cv2.circle(img, (200,200),30,(255,255,255),5,8,0)
         img = cv2.line(img, (40,100), (200,200), (255,255,255), 5)
-        
+
 
         self.get_logger().info('img read',throttle_duration_sec = 1)
         cv2.imshow('camera', img)
