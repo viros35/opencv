@@ -1,0 +1,24 @@
+[0.608s] Invoking command in '/home/vi/opencv_ws/src/opencv_pkg': PYTHONPATH=/home/vi/opencv_ws/build/opencv_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vi/opencv_ws/install/opencv_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/opencv_pkg build --build-base /home/vi/opencv_ws/build/opencv_pkg/build install --record /home/vi/opencv_ws/build/opencv_pkg/install.log --single-version-externally-managed install_data
+[0.854s] running egg_info
+[0.854s] writing ../../build/opencv_pkg/opencv_pkg.egg-info/PKG-INFO
+[0.855s] writing dependency_links to ../../build/opencv_pkg/opencv_pkg.egg-info/dependency_links.txt
+[0.855s] writing entry points to ../../build/opencv_pkg/opencv_pkg.egg-info/entry_points.txt
+[0.855s] writing requirements to ../../build/opencv_pkg/opencv_pkg.egg-info/requires.txt
+[0.855s] writing top-level names to ../../build/opencv_pkg/opencv_pkg.egg-info/top_level.txt
+[0.857s] reading manifest file '../../build/opencv_pkg/opencv_pkg.egg-info/SOURCES.txt'
+[0.858s] writing manifest file '../../build/opencv_pkg/opencv_pkg.egg-info/SOURCES.txt'
+[0.858s] running build
+[0.858s] running build_py
+[0.858s] running install
+[0.858s] running install_lib
+[0.860s] running install_data
+[0.860s] running install_egg_info
+[0.862s] removing '/home/vi/opencv_ws/install/opencv_pkg/lib/python3.10/site-packages/opencv_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[0.862s] Copying ../../build/opencv_pkg/opencv_pkg.egg-info to /home/vi/opencv_ws/install/opencv_pkg/lib/python3.10/site-packages/opencv_pkg-0.0.0-py3.10.egg-info
+[0.863s] running install_scripts
+[0.882s] Installing cv_new_rx_node script to /home/vi/opencv_ws/install/opencv_pkg/lib/opencv_pkg
+[0.882s] Installing cv_new_tx_node script to /home/vi/opencv_ws/install/opencv_pkg/lib/opencv_pkg
+[0.882s] Installing cv_rx_node script to /home/vi/opencv_ws/install/opencv_pkg/lib/opencv_pkg
+[0.882s] Installing cv_tx_node script to /home/vi/opencv_ws/install/opencv_pkg/lib/opencv_pkg
+[0.882s] writing list of installed files to '/home/vi/opencv_ws/build/opencv_pkg/install.log'
+[0.907s] Invoked command in '/home/vi/opencv_ws/src/opencv_pkg' returned '0': PYTHONPATH=/home/vi/opencv_ws/build/opencv_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vi/opencv_ws/install/opencv_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/opencv_pkg build --build-base /home/vi/opencv_ws/build/opencv_pkg/build install --record /home/vi/opencv_ws/build/opencv_pkg/install.log --single-version-externally-managed install_data

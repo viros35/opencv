@@ -28,6 +28,9 @@ _colcon_prefix_chain_powershell_source_script "/home/vi/turtle_ws/install\local_
 _colcon_prefix_chain_powershell_source_script "/home/vi/rviz_ws/install\local_setup.ps1"
 _colcon_prefix_chain_powershell_source_script "/home/vi/rviz_save_ws/install\local_setup.ps1"
 _colcon_prefix_chain_powershell_source_script "/home/vi/launch_ws/install\local_setup.ps1"
+_colcon_prefix_chain_powershell_source_script "/home/vi/lidar_ws/install\local_setup.ps1"
+_colcon_prefix_chain_powershell_source_script "/home/vi/lidar2_ws/install\local_setup.ps1"
+_colcon_prefix_chain_powershell_source_script "/home/vi/odom_ws/install\local_setup.ps1"
 
 # source this prefix
 $env:COLCON_CURRENT_PREFIX=(Split-Path $PSCommandPath -Parent)

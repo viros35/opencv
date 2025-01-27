@@ -1,0 +1,6 @@
+[console_scripts]
+cv_new_rx_node = opencv_pkg.opencv_1_rx:main
+cv_new_tx_node = opencv_pkg.opencv_1_tx:main
+cv_rx_node = opencv_pkg.opencv_0_rx:main
+cv_tx_node = opencv_pkg.opencv_0:main
+
